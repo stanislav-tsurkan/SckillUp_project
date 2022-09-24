@@ -16,7 +16,7 @@ git commit -m "initial commit"  -- создание commit с "примечан�
 
 git commit -a -m "initial commit"  --- подготовка и создание коммита
 
- git add . && git commit -m "update commit"  --- подготовки и commit последовательно
+git add . && git commit -m "update commit"  --- подготовки и commit последовательно
 
 git log
 
