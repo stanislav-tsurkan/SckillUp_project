@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Home Work №2 28.08.2022</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a class="navbar__link" href="../index.html">Главная</a>
+        <a class="navbar__link" href="articles.html">Статьи</a>
+        <a class="navbar__link" href="catalog.html">Каталог</a>
+        <a class="navbar__link navbar__link--active" href="contacts.html">Контакты</a>
+        <a class="navbar__link" href="gallery.html">Галерея</a>
+        <a class="navbar__link" href="page-nav.html">Навигация</a>
+        <a class="navbar__link" href="registration.html">Регистрация</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="bg-image"></div>
+  <div class="container">
+    <div class="data-company">
+      <h4>Адресс</h4>
+      <p>г.Одесса <br>
+        Александровский проспект , 10А <br>
+        5 этаж , каббинет 46</p>
+
+      <h4>Время работы</h4>
+      <p>Пн.-Птн. 9<sup>00</sup>- 17<sup>00</sup> <br>
+        Суб. 10<sup>00</sup> - 14<sup>00</sup></p>
+    </div>
+
+    <h2>Обратная связь</h2>
+    <div>
+      <form action="https://tests.fomenko.top/echo/index.php" method="get" name="form2">
+        <fieldset>
+          <div class="form-groop">
+            <label for="login">Фамилия, Имя, Отчество</label>
+            <input class="first-liter-cap" type="text" id="login" name="login" placeholder="Логин">
+          </div>
+
+          <div class="form-groop">
+            <label for="telefon">Контактный телефон</label>
+            <input class="first-liter-cap" type="tel" id="telefon" name="telefon" placeholder="+380-XXXX-XXX"
+              maxlength="11">
+          </div>
+
+          <div class="form-groop">
+            <label for="email">E-mail</label>
+            <input class="first-liter-cap" type="email" id="email" name="email" placeholder="E-mail">
+          </div>
+
+          <div class="form-groop">
+            <label for="text">Что бы вы хотели спросить ?..</label>
+            <textarea name="text" id="text" cols="50" rows="6">Задайте нам вопрос...</textarea>
+          </div>
+        </fieldset>
+
+        <div class="btn-wrapper">
+          <button class="btn" type="submit">Отправить данные</button>
+          <button class="btn" type="reset">Сброс данных</button>
+        </div>
+      </form>
+    </div>
+    <div class="data-company">
+      <h4>Мы на карте</h4>
+      <iframe class="data-company"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.0168756454652!2d30.734604593830852!3d46.47882370784592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6319a689c922b%3A0xe195661fb3a66e5!2z0JDRgNC60LDQtNCw!5e0!3m2!1sru!2spl!4v1662155407687!5m2!1sru!2spl"
+        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="copy">
+        &copy; Tsurkan Stanislav
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
