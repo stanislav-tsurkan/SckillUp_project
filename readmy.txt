@@ -36,6 +36,14 @@ git log --pretty=format:"%h - %an, %ar - %s"
 
 git checkout <commit hash>  --- переход на комит с номером  <commit hash>
 
-git branch -v    ---  просмотр версии и выдает номер
+git branch -v    ---  просмотр версий и выдает номер
 
- git checkout -b test  ---создание новой ветки <test>  с переходом на нее
+git checkout -b test  ---создание новой ветки <test>  с переходом на нее
+
+git merge <откуда = ветка > -- слияние ветки мастер в текущую (!!!! не стоит слияние делать в master пока не будет отлажена)
+
+git remote   ---
+
+git remote -v  ----
+
+git remote add origin <url>
